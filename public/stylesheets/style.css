@@ -1,0 +1,70 @@
+body {
+    margin: 0px;
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+    background-color: lightgrey;
+}
+a {
+    color: #00B7FF;
+}
+input[type=text], button {
+    padding: 15px;
+    font-size: 2em;
+    border: solid lightgrey 2px;
+    border-radius: 5px;
+}
+
+#header-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: darkgrey;
+  width: 100%;
+  height: 90px;
+}
+#body-container {
+  position: absolute;
+  top: 90px;
+  left: 0px;
+  width: 90%;
+  padding: 50px;
+}
+#login {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background: black;
+    color: white;
+    padding: 20%;
+    z-index: 100;
+}
+#ct-container {
+    border-radius: 5px;
+    background-color: darkgrey;
+    padding: 10px;
+}
+#ct-content {
+    margin-bottom: 10px;
+    overflow-y: scroll;
+    min-width: 80%;
+    height: 400px;
+    font-size: 1em;
+    background-color: white;
+    padding: 4px;
+}
+#ct-post {
+    background-color: white;
+    padding: 4px;
+}
+#message {
+  width: 85%;
+}
+.ct-username {
+  font-size: 1.5em;
+  color: darkblue;
+}
+.ct-message {
+  font-size: 1.4em;
+  color: darkred;
+}
